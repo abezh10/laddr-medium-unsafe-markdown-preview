@@ -1,2 +1,5 @@
-// Scaffold for the Unsafe Markdown Preview sample repo.
-export {};
+export function markdownLabel(value: string) {
+  return value.trim() || "starter-value";
+}
+
+export const startermarkdownValues = ["one", "two", "three"];
